@@ -1,0 +1,21 @@
+{
+    "name": "yb98k/yb-tools",
+    "description": "a package of containing the most commonly used classes and functions for PHP development",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yb98k",
+            "email": "ykabps1314@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Yb98k\\ybTools\\": "src//"
+        }
+    }
+}
